@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Roboto", system-ui;
+    color: #fff;
+}
+
+.wrapper{
+    width: 650px;
+    height: 440px;
+    background:  linear-gradient(to left ,#093028,#237A57);
+    display: flex;
+    align-items: center;
+    transition: 3s ease-in-out;
+    box-shadow: 0 0 50px #000000;
+}
+.user__one{
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #fff;
+    padding: 25px 10px;
+}
+.user__two{
+    width: 50%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 10px;
+}
+.user__two-btn{
+    margin: 40% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.user__two-btn b{
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.user__two-btn button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+.user__two-btn button:hover{
+    box-shadow: 0 0 40px #fff;
+    cursor: pointer;
+}
+
+.user__title2,
+.user__title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.b{
+    color: red;
+    position: absolute;
+    top: 22%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fa-solid.fa-sun{
+    position: absolute;
+    top: 40%;
+    font-size: 25px;
+    background-color: #fff;
+    padding: 12px 12px;
+    color: black;
+    border-radius: 50%;
+}
+.fa-solid.fa-moon{
+    position: absolute;
+    top: 60%;
+    font-size: 25px;
+    background-color: #fff;
+    padding: 12px 15px;
+    color: black;
+    border-radius: 50%;
+}
